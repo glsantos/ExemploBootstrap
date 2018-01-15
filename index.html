@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <!--Chamando o arquivo editável do CSS bootstrap-->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+  </head>
+  <body>
+    <!--Área do Menu do Site-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+
+        <a class="navbar-brand h1 mb-0" href="#">Company</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+          <div class="collapse navbar-collapse" id="navbarSite">
+            <ul class="navbar-nav mr-auto">
+              <!--Vendedor-->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Realizar Pedido</a>
+              </li>
+              <!--Supervisor das Lojas-->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Aprovar Reposição</a>
+              </li>
+              <!--Supervisor Master-->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Aprovar Pedidos</a>
+              </li>
+
+              <!--ADM Topper-->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Liberar Pedidos</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                  Relatórios
+                </a>
+                <div class="dropdown-menu">
+                  <!--Vendedor-->
+                  <a class="dropdown-item" href="#">Pedidos nomeFilial</a>
+
+                  <!--Supervisor de Lojas-->
+                  <a class="dropdown-item" href="#">Pedidos das Lojas</a>
+
+                  <!--Supervisor Master-->
+                  <a class="dropdown-item" href="#">Pedidos dos Supervisores</a>
+
+                  <!--ADM Topper-->
+                  <a class="dropdown-item" href="#">Gerencial</a>
+                  <a class="dropdown-item" href="#">Pedidos do Comprador</a>
+                </div>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav al-auto">
+                <li>
+                  <a href="#">Logoff</a>
+                </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+
+    <!--Links do Jquery-->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
